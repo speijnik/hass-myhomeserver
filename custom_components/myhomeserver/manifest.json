@@ -1,0 +1,25 @@
+{
+  "domain": "myhomeserver",
+  "name": "Bticino MyHomeSERVER",
+  "config_flow": true,
+  "documentation": "https://github.com/speijnik/hass-myhomeserver",
+  "requirements": [
+    "myhome==0.3.0"
+  ],
+  "ssdp": [
+    {
+      "st": "urn:schemas-bticino-it:device:myhomeserver1:1"
+    }
+  ],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [
+    "network"
+  ],
+  "codeowners": [
+    "@speijnik"
+  ],
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/speijnik/hass-myhomeserver/issues",
+  "version": "0.1.0"
+}
